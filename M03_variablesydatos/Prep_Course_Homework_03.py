@@ -7,13 +7,14 @@
 
 # In[7]:
 
-
+num = 3
+print(num)
 
 
 # 2) Imprimir el tipo de dato de la constante 8.5
 
 # In[3]:
-
+type(8.5)
 
 
 
@@ -21,7 +22,7 @@
 # 3) Imprimir el tipo de dato de la variable creada en el punto 1
 
 # In[8]:
-
+type(num)
 
 
 
@@ -29,7 +30,7 @@
 # 4) Crear una variable que contenga tu nombre
 
 # In[2]:
-
+myName = "Felipe"
 
 
 
@@ -37,14 +38,14 @@
 
 # In[3]:
 
-
+numComplejo = 5 +2j
 
 
 
 # 6) Mostrar el tipo de dato de la variable crada en el punto 5
 
 # In[4]:
-
+type(numComplejo)
 
 
 
@@ -61,15 +62,16 @@ pi = 3.1416
 
 # In[3]:
 
+trueString = "True"
+trueBool = True
 
-
-
+#No son lo mismo uno es string el otro booleano
 
 # 9) Imprimir el tipo de dato correspondientes a las variables creadas en el punto 8
 
 # In[5]:
 
-
+print(type(trueString), type(trueBool))
 
 
 
@@ -77,7 +79,12 @@ pi = 3.1416
 
 # In[1]:
 
+x = 5
+y = 1.3
 
+suma = x+y
+
+print(suma)
 
 
 
@@ -85,14 +92,21 @@ pi = 3.1416
 
 # In[2]:
 
+c1 = 5 + 3j
+c2 = 2 +5j
 
+resultadoC = c1 +c2
+
+print(resultadoC)
 
 
 
 # 12) Realizar una operación de suma de un número real y otro complejo
 
 # In[4]:
+realYComplex = x + c1
 
+print(realYComplex)
 
 
 
@@ -101,7 +115,7 @@ pi = 3.1416
 
 # In[5]:
 
-
+print(x*y)
 
 
 
@@ -109,14 +123,19 @@ pi = 3.1416
 
 # In[6]:
 
-
+print(2**8)
 
 
 # 15) Obtener el cociente de la división de 27 entre 4 en una variable y luego mostrarla
 
 # In[8]:
 
+dendo = 27
+disor = 4
 
+cociente = (dendo / disor)
+
+print( cociente )
 
 
 
@@ -124,7 +143,9 @@ pi = 3.1416
 
 # In[9]:
 
+entero = (dendo // disor)
 
+print(entero)
 
 
 
@@ -132,7 +153,9 @@ pi = 3.1416
 
 # In[1]:
 
+resto = (dendo % disor)
 
+print (resto)
 
 
 
@@ -140,7 +163,9 @@ pi = 3.1416
 
 # In[2]:
 
+operator = (entero * 4 + resto) 
 
+print (operator)
 
 
 
@@ -148,7 +173,10 @@ pi = 3.1416
 
 # In[3]:
 
+hi = "hello"
+w = "world"
 
+print(hi + " " + w)
 
 
 
@@ -156,7 +184,9 @@ pi = 3.1416
 
 # In[4]:
 
+print("2" == 2 )
 
+#Uno es string el otro number
 
 
 
@@ -164,7 +194,7 @@ pi = 3.1416
 
 # In[11]:
 
-
+print( int('2') == 2)
 
 
 
@@ -172,7 +202,7 @@ pi = 3.1416
 
 # In[12]:
 
-
+#por que , no es un separado vlido en python
 
 
 
@@ -180,7 +210,11 @@ pi = 3.1416
 
 # In[15]:
 
+w = 3
 
+w-=1
+
+print(w) 
 
 
 
@@ -188,7 +222,7 @@ pi = 3.1416
 
 # In[29]:
 
-
+print (1<<2)
 
 
 
@@ -196,7 +230,9 @@ pi = 3.1416
 
 # In[23]:
 
+print(int("2") + 2)
 
+print ("2" + str(2))
 
 
 
@@ -204,6 +240,9 @@ pi = 3.1416
 # 26) Realizar una operación válida entre valores de tipo entero y string
 
 # In[30]:
+name = "Felipe"
+edad = 43
 
+print( name, "tiene ", edad, " años")
 
 
